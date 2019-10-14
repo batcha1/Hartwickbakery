@@ -7,6 +7,7 @@ candy = []
 
 def cookie_input():
     for choco in range(0, 6):
-       var = input("")
-       choco += 1
-       print(var)
+       value = int(input("Monthly Sale:"))
+       cookies.append(value)
+
+cookie_input()
