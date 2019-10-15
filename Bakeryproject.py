@@ -25,3 +25,25 @@ print("**********")
 
 print("Now let's do the same thing for candy sales.")
 candy_input()
+
+def cookie_average():
+    print(sum(cookies)/ len(cookies))
+
+def candy_average():
+    print(sum(candy) / len(candy))
+
+def cookie_max():
+    print(max(cookies))
+
+def cookie_min():
+    print(min(cookies))
+
+def most_popular():
+    if sum(candy) > sum(cookies):
+        return'cookies'
+    elif sum(candy) < sum(cookies):
+        return 'cookies'
+    else:
+        return'equal'
+
+
